@@ -1,8 +1,7 @@
 package dev.java10x.CadastroDeNinjas.Ninjas;
 import dev.java10x.CadastroDeNinjas.Missoes.MissoesModel;
-import dev.java10x.CadastroDeNinjas.Missoes.Niveis;
 import jakarta.persistence.*;
-import java.util.List;
+
 
 //entity trasnforma uma classe em uma entidade do db
 @Entity
@@ -17,7 +16,12 @@ public class NinjaModel  {
     private String nome;
     private String email;
     private int idade;
-    private List<MissoesModel>  missoes;
+    //@manytoone um ninja uma unica missao
+    @ManyToOne()
+    @JoinColumn(name = "missoes_id")//foreing key  ou chave estrangeira
+    private MissoesModel missoes;
+    //Many to one um ninja tem uma unica missao
+
 
     public String getNome() {
         return nome;
@@ -46,15 +50,20 @@ public class NinjaModel  {
     public NinjaModel() {
     }
 
-    public NinjaModel(String nome, String email, int idade, List missoes) {
+    public NinjaModel(String nome, String email, int idade) {
         this.nome = nome;
         this.email = email;
         this.idade = idade;
-        this.missoes = missoes;
+
     }
 
-    public NinjaModel(String nome, Long id , List missoes, int idade,String email) {
-        this(nome, email, idade, missoes);
+    public NinjaModel(String nome,int idade, String email, Long id) {
+        this(nome, email, idade);
         this.id = id;
+    }
+
+    public NinjaModel(String nome, int idade, String email, long id, MissoesModel missoes) {
+        this(nome, idade, email, id);
+        this.missoes = missoes;
     }
 }

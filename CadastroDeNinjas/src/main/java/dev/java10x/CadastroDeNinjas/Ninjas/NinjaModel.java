@@ -1,11 +1,14 @@
-package dev.java10x.CadastroDeNinjas;
+package dev.java10x.CadastroDeNinjas.Ninjas;
+import dev.java10x.CadastroDeNinjas.Missoes.MissoesModel;
+import dev.java10x.CadastroDeNinjas.Missoes.Niveis;
 import jakarta.persistence.*;
+import java.util.List;
 
 //entity trasnforma uma classe em uma entidade do db
 @Entity
 @Table(name = "tb_cadastro")
 
-public class NinjaModel {
+public class NinjaModel  {
     //necessario ter um id
     // java declara id automaticamente
     @Id
@@ -14,7 +17,7 @@ public class NinjaModel {
     private String nome;
     private String email;
     private int idade;
-    NinjaModel() {}
+    private List<MissoesModel>  missoes;
 
     public String getNome() {
         return nome;
@@ -40,10 +43,18 @@ public class NinjaModel {
         this.idade = idade;
     }
 
-    NinjaModel(String nome, String email, int idade) {
+    public NinjaModel() {
+    }
+
+    public NinjaModel(String nome, String email, int idade, List missoes) {
         this.nome = nome;
         this.email = email;
         this.idade = idade;
+        this.missoes = missoes;
+    }
 
+    public NinjaModel(String nome, Long id , List missoes, int idade,String email) {
+        this(nome, email, idade, missoes);
+        this.id = id;
     }
 }

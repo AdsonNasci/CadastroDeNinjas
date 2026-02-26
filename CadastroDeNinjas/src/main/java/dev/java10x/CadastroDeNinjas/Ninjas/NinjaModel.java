@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 
 //entity trasnforma uma classe em uma entidade do db
 @Entity
-@Table(name = "tb_cadastro")
+@Table(name = "tb_model")
 //LOMBOK
 @NoArgsConstructor
 @AllArgsConstructor
@@ -27,7 +27,7 @@ public class NinjaModel  {
     private String email;
     @Column(name = "img_url")
     private String imgUrl;
-    @Column(name = "idade")
+    @Column(name = "idade   ")
     private int idade;
     //@manytoone um ninja uma unica missao
     @ManyToOne()

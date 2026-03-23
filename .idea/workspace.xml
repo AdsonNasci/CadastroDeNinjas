@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f5283821-6908-4724-80c0-eac8ca6af268" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/CadastroDeNinjas/src/main/java/dev/java10x/CadastroDeNinjas/Missoes/MissoesModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/CadastroDeNinjas/src/main/java/dev/java10x/CadastroDeNinjas/Missoes/MissoesModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CadastroDeNinjas/src/main/java/dev/java10x/CadastroDeNinjas/Ninjas/NinjaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/CadastroDeNinjas/src/main/java/dev/java10x/CadastroDeNinjas/Ninjas/NinjaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CadastroDeNinjas/src/main/java/dev/java10x/CadastroDeNinjas/Ninjas/NinjaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/CadastroDeNinjas/src/main/java/dev/java10x/CadastroDeNinjas/Ninjas/NinjaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CadastroDeNinjas/src/main/java/dev/java10x/CadastroDeNinjas/Ninjas/NinjaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/CadastroDeNinjas/src/main/java/dev/java10x/CadastroDeNinjas/Ninjas/NinjaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CadastroDeNinjas/src/main/resources/db/migration/V1__Create_tb_missoes.sql" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_C:/Users/User/Desktop/ADSON SITE/Projeto de Spring do fiasco" value="35m3DNyHGCZNMXdzQ01rZwK2JSj" />
+      <entry key="_C:/Users/User/Desktop/ADSON SITE/Projeto de Spring do fiasco/CadastroDeNinjas" value="3BLd53Qwm3RavOT3LUxHQtRYtIt" />
+    </persistenceIdMap>
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="26" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+        <option value="com.intellij.jpb.FlywayMigrationScript" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;AdsonNasci&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:AdsonNasci/CadastroDeNinjas.git&quot;,
+    &quot;accountId&quot;: &quot;b927a52c-8758-4988-a02d-db8bfb7afad1&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-jpa/4.0.0/spring-boot-jpa-4.0.0.jar!/org/springframework/boot/jpa/autoconfigure/JpaBaseConfiguration.class" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="35m3DNyHGCZNMXdzQ01rZwK2JSj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CadastroDeNinjas.executor": "Run",
+    "Application.CadastroDeNinjasApplication.executor": "Run",
+    "JUnit.CadastroDeNinjasApplicationTests.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "Spring Boot.CadastroDeNinjasApplication.executor": "Run",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/User/Desktop/ADSON SITE/Projeto de Spring do fiasco",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="QodanaReportsService">
+    <option name="descriptions">
+      <ReportDescription localRun="true" path="C:\Users\User\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="be7e5dc2-9614-4a45-a646-7a73dd24b660" reportId="Projeto de Spring do fiasco/qodana/2026-03-14" />
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\ADSON SITE\Projeto de Spring do fiasco\CadastroDeNinjas\src\main\resources\db\migration" />
+      <recent name="C:\Users\User\Desktop\ADSON SITE\Projeto de Spring do fiasco\.idea" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="dev.java10x.CadastroDeNinjas" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.CadastroDeNinjas">
+    <configuration name="CadastroDeNinjas" type="Application" factoryName="Application">
+      <envs>
+        <env name="DATABASE_PASSWORD" value="SASaca912@3" />
+        <env name="DATABASE_URL" value="jdbc:h2:file:./data/CadastrosDeNinjasDb" />
+        <env name="DATABASE_USERNAME" value="sa" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="dev.java10x.CadastroDeNinjas.CadastroDeNinjasApplication" />
+      <module name="CadastroDeNinjas" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CadastroDeNinjas" />
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CadastroDeNinjasApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="CadastroDeNinjas" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="dev.java10x.CadastroDeNinjas.CadastroDeNinjasApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.CadastroDeNinjas" />
+      <item itemvalue="Spring Boot.CadastroDeNinjasApplication" />
+    </list>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.31033.145" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.31033.145" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f5283821-6908-4724-80c0-eac8ca6af268" name="Changes" comment="" />
+      <created>1763701301340</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1763701301340</updated>
+      <workItem from="1770176599058" duration="3340000" />
+      <workItem from="1770536643453" duration="1263000" />
+      <workItem from="1770705868378" duration="8000" />
+      <workItem from="1771952520210" duration="4689000" />
+      <workItem from="1772079758086" duration="11449000" />
+      <workItem from="1773472636734" duration="1942000" />
+      <workItem from="1773649242367" duration="569000" />
+      <workItem from="1773649859733" duration="7464000" />
+      <workItem from="1774272106536" duration="1994000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Projeto_de_Spring_do_fiasco$CadastroDeNinjasApplication.ic" NAME="CadastroDeNinjasApplication Coverage Results" MODIFIED="1764050139414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>dev.java10x.CadastroDeNinjas.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
+  </component>
+</project>

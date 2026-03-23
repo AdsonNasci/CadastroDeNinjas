@@ -1,15 +1,47 @@
 package dev.java10x.CadastroDeNinjas.Ninjas;
 
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 @RestController
 @RequestMapping
 public class NinjaController {
+    private NinjaService ninjaService;
+
+    public NinjaController(NinjaService ninjaService){
+        this.ninjaService = ninjaService;
+    }
     @GetMapping("/boasvindas")
     public String boasVindas() {
         return "Boas vindas, essa é minha primeira mensagem";
+    }
+    // add ninja
+    @PostMapping("/add")
+    public String criarNinja ( ) {
+        return ("Ninja criado com sucesso");
+    }
+    //list ninjas
+    @GetMapping("/all")
+    public List<NinjaModel> mostrarTodosNinjas() {
+        return ninjaService.listarNinjas();
+    }
+    // shows ninja by id
+    @GetMapping("/id")
+    public String showNinjaById() {
+        return ("Mostrando ninja com id: " );
+    }
+    //atualizar
+    @PutMapping("/atualizar")
+    public String atualizarNinjaId() {
+        return ("Ninja atualizado com sucesso");
+    }
+
+    @DeleteMapping("/deletarId")
+    public String deletarId() {
+        return ("Ninja deletado com sucesso");
+
     }
 
 }

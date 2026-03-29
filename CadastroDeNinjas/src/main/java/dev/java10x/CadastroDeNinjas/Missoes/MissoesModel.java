@@ -24,7 +24,9 @@ public class MissoesModel {
     private long id;
     private String nome;
     private String missaoNome;
+    @Enumerated(EnumType.STRING)
     private Niveis nivel;
+    private String rank;
 
     //uma missao pode ter varios ninjas
     @OneToMany(mappedBy = "missoes")

@@ -7,29 +7,29 @@ import java.util.Optional;
 
 @Service
 public class NinjaService{
-        //injeção de dependência do repository
+    private  NinjaRepository ninjaRepository;
+    private  NinjaMapper ninjaMapper;
+    //injeção de dependência do repository
       // @Autowired é uma anotação do Spring que permite a injeção automática de dependências.
 
-    private NinjaModel ninjaModel;
-        private NinjaMapper ninjaMapper;
-
-        public NinjaService(NinjaMapper NinjaMapper, NinjaMapper ninjaMapperr){
+        public NinjaService(NinjaMapper ninjaMapper, NinjaRepository ninjaRepository){
             this.ninjaMapper = ninjaMapper;
-            this.ninjaModel = ninjaModel;
+            this.ninjaRepository = ninjaRepository;
         }
         //listar todos os meus ninjas
-        public List<NinjaMapper> listarNinjas(){
+        public List<NinjaModel> listarNinjas(){
             return ninjaRepository.findAll();
         }
         //listar by id
-        public NinjaDTO listarNinjaPorId(Long id){
-            Optional<NinjaDTO> ninjaDTO = ninjaMapper.findById(id).map(ninjaMapper::map);
-            return ninjaDTO.orElse(null);
+        public NinjaModel listarNinjaPorId(Long id){
+            Optional<NinjaModel> ninjaPorId = ninjaRepository.findById(id);
+            return ninjaPorId.orElse(null);
         }
         // criar ninja
-        public NinjaMapper criarNinja(NinjaDtO ninjaDTO){
-
-            return ninjaRepository.save(ninja);
+        public NinjaDTO criarNinja(NinjaDTO ninjaDTO){
+            NinjaModel ninja = ninjaMapper.map(ninjaDTO);
+            ninja = ninjaRepository.save(ninja);
+            return ninjaMapper.map(ninja);
         }
 
         //deletar ninja

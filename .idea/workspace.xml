@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5283821-6908-4724-80c0-eac8ca6af268" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/CadastroDeNinjas/src/main/java/dev/java10x/CadastroDeNinjas/Missoes/MissoesController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CadastroDeNinjas/src/main/java/dev/java10x/CadastroDeNinjas/Missoes/MissoesDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CadastroDeNinjas/src/main/java/dev/java10x/CadastroDeNinjas/Missoes/MissoesMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CadastroDeNinjas/src/main/java/dev/java10x/CadastroDeNinjas/Ninjas/NinjaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/CadastroDeNinjas/src/main/java/dev/java10x/CadastroDeNinjas/Ninjas/NinjaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CadastroDeNinjas/src/main/java/dev/java10x/CadastroDeNinjas/Ninjas/NinjaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/CadastroDeNinjas/src/main/java/dev/java10x/CadastroDeNinjas/Ninjas/NinjaService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CadastroDeNinjas/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/CadastroDeNinjas/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,7 +183,7 @@
       <workItem from="1774957185201" duration="22000" />
       <workItem from="1774957232032" duration="548000" />
       <workItem from="1774959568642" duration="615000" />
-      <workItem from="1775202324122" duration="3129000" />
+      <workItem from="1775202324122" duration="6328000" />
     </task>
     <servers />
   </component>

@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5283821-6908-4724-80c0-eac8ca6af268" name="Changes" comment="" />
+    <list default="true" id="f5283821-6908-4724-80c0-eac8ca6af268" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,8 +25,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="com.intellij.jpb.FlywayMigrationScript" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -79,7 +81,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;Spring Boot.CadastroDeNinjasApplication.executor&quot;: &quot;Run&quot;,
     &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;hotfix/T-99121-criar-DTO&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/User/Desktop/ADSON SITE/Projeto de Spring do fiasco&quot;,
@@ -175,12 +177,41 @@
       <workItem from="1774625987268" duration="3715000" />
       <workItem from="1774629783917" duration="6231000" />
       <workItem from="1774757675745" duration="2484000" />
-      <workItem from="1774765786522" duration="814000" />
+      <workItem from="1774765786522" duration="10050000" />
+      <workItem from="1774951098477" duration="3193000" />
+      <workItem from="1774956457291" duration="33000" />
+      <workItem from="1774957185201" duration="22000" />
+      <workItem from="1774957232032" duration="548000" />
+      <workItem from="1774959568642" duration="615000" />
+      <workItem from="1775202324122" duration="6328000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

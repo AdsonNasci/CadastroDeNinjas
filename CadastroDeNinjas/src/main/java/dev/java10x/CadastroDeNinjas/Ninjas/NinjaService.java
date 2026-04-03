@@ -4,40 +4,52 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 import java.util.List;
 import java.util.Optional;
+import java.util.stream.Collectors;
 
 @Service
 public class NinjaService{
-        //injeção de dependência do repository
+    private  NinjaRepository ninjaRepository;
+    private  NinjaMapper ninjaMapper;
+    //injeção de dependência do repository
       // @Autowired é uma anotação do Spring que permite a injeção automática de dependências.
 
-        private NinjaRepository ninjaRepository;
-        public NinjaService(NinjaRepository ninjaRepository){
+        public NinjaService(NinjaMapper ninjaMapper, NinjaRepository ninjaRepository){
+            this.ninjaMapper = ninjaMapper;
             this.ninjaRepository = ninjaRepository;
         }
-        //listar todos os meus ninjas
-        public List<NinjaModel> listarNinjas(){
-            return ninjaRepository.findAll();
-        }
+
+    //listar todos os meus ninjas
+    public List<NinjaDTO> listarNinjas() {
+        List<NinjaModel> ninjas =  ninjaRepository.findAll();
+        return ninjas.stream()
+                .map(ninjaMapper::map)
+        .collect(Collectors.toList());
+    }
         //listar by id
-        public NinjaModel listarNinjaPorId(Long id){
-            Optional<NinjaModel> ninjaMoldel = ninjaRepository.findById(id);
-            return ninjaMoldel.orElse(null);
+        public NinjaDTO listarNinjaPorId(Long id){
+            Optional<NinjaModel> ninjaPorId = ninjaRepository.findById(id);
+            return  ninjaPorId.map(ninjaMapper::map).orElse(null);
         }
         // criar ninja
-        public NinjaModel criarNinja(NinjaModel ninja){
-            return ninjaRepository.save(ninja);
+        public NinjaDTO criarNinja(NinjaDTO ninjaDTO){
+            NinjaModel ninja = ninjaMapper.map(ninjaDTO);
+            ninja = ninjaRepository.save(ninja);
+            return ninjaMapper.map(ninja);
         }
 
-        //deletar ninja
+        //deletar ninja não precisa de dto
         public void deletarNinja(Long id){
             ninjaRepository.deleteById(id);
         }
 
-        public NinjaModel alterarNinja(@PathVariable Long id, NinjaModel ninjaAtualizado){
-            if(ninjaRepository.existsById(id)){
-                return ninjaRepository.save(ninjaAtualizado);
-            } else {
-                return null;
+        public NinjaDTO alterarNinja(@PathVariable Long id, NinjaDTO ninjaDTO) {
+            Optional<NinjaModel> ninjaPorId = ninjaRepository.findById(id);
+            if(ninjaPorId.isPresent()){
+                NinjaModel ninjaAtualizado = ninjaMapper.map(ninjaDTO);
+                ninjaAtualizado.setId(id);
+                NinjaModel ninjaSalvo = ninjaRepository.save(ninjaAtualizado);
+                return ninjaMapper.map(ninjaSalvo);
             }
-    }
+            return null;
+        }
 }

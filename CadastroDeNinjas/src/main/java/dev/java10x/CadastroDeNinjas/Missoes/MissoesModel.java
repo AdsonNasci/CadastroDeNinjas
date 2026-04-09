@@ -32,7 +32,7 @@ public class MissoesModel {
     @OneToMany(mappedBy = "missoes")
     @JsonIgnore
     private LinkedList<NinjaModel> ninjas = new LinkedList<>();
-    private boolean status;
+    private Boolean status;
 
     @Override
     public String toString() {

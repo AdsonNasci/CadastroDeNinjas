@@ -1,2 +1,2 @@
 ALTER TABLE tb_missoes
-ADD COLUMN rank VARCHAR(255);   V
+ADD COLUMN rank VARCHAR(255);

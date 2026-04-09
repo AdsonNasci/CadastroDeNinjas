@@ -1,8 +1,6 @@
 package dev.java10x.CadastroDeNinjas.Ninjas;
 
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.List;
 
 @RestController
@@ -20,12 +18,12 @@ public class NinjaController {
 
     // add ninja
     @PostMapping("/add")
-    public NinjaModel criarNinja (@RequestBody NinjaModel ninja ) {
+    public NinjaDTO criarNinja (@RequestBody NinjaDTO ninja ) {
         return ninjaService.criarNinja(ninja);
     }
     //list ninjas
     @GetMapping("/all")
-    public List<NinjaModel> mostrarTodosNinjas() {
+    public List<NinjaDTO> mostrarTodosNinjas() {
         return ninjaService.listarNinjas();
     }
     // shows ninja by id
@@ -35,7 +33,7 @@ public class NinjaController {
     }
     //atualizar
     @PutMapping("/atualizar/{id}")
-    public NinjaModel atualizarNinjaId(Long id, @RequestBody NinjaModel ninjaAtualizado) {
+    public NinjaDTO atualizarNinjaId(Long id, @RequestBody NinjaDTO ninjaAtualizado) {
         return ninjaService.alterarNinja(id, ninjaAtualizado);
     }
     // path variable

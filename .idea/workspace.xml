@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f5283821-6908-4724-80c0-eac8ca6af268" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CadastroDeNinjas/src/main/java/dev/java10x/CadastroDeNinjas/Missoes/MissoesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/CadastroDeNinjas/src/main/java/dev/java10x/CadastroDeNinjas/Missoes/MissoesService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CadastroDeNinjas/src/main/java/dev/java10x/CadastroDeNinjas/Ninjas/NinjaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/CadastroDeNinjas/src/main/java/dev/java10x/CadastroDeNinjas/Ninjas/NinjaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CadastroDeNinjas/src/main/java/dev/java10x/CadastroDeNinjas/Ninjas/NinjaMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/CadastroDeNinjas/src/main/java/dev/java10x/CadastroDeNinjas/Ninjas/NinjaMapper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +22,7 @@
     </persistenceIdMap>
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="25" />
+    <option name="cachedIndexableFilesCount" value="30" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -158,6 +161,9 @@
       </set>
     </attachedChunks>
   </component>
+  <component name="StructureViewState">
+    <option name="selectedTab" value="Logical" />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="f5283821-6908-4724-80c0-eac8ca6af268" name="Changes" comment="" />
@@ -185,6 +191,7 @@
       <workItem from="1774959568642" duration="615000" />
       <workItem from="1775202324122" duration="7076000" />
       <workItem from="1775232760982" duration="756000" />
+      <workItem from="1775802340585" duration="1645000" />
     </task>
     <servers />
   </component>
@@ -213,6 +220,17 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/CadastroDeNinjas/src/main/java/dev/java10x/CadastroDeNinjas/Missoes/MissoesModel.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

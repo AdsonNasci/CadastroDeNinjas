@@ -10,21 +10,21 @@ public class NinjaMapper {
         ninjaModel.setId(ninjaDTO.getId());
         ninjaModel.setNome(ninjaDTO.getNome());
         ninjaModel.setEmail(ninjaDTO.getEmail());
-        ninjaModel.setIdade(ninjaModel.getIdade());
+        ninjaModel.setIdade(ninjaDTO.getIdade());
         ninjaModel.setImgUrl(ninjaDTO.getImg_url());
-        ninjaModel.setMissoes(ninjaDTO.getMissoes());
+        // missoes is set in service
         ninjaModel.setRank(ninjaDTO.getRank());
         return ninjaModel;
     }
     public NinjaDTO map(NinjaModel ninjaModel){
         NinjaDTO ninjaDTO = new NinjaDTO();
-        ninjaDTO.setId(ninjaDTO.getId());
-        ninjaDTO.setNome(ninjaDTO.getNome());
-        ninjaDTO.setEmail(ninjaDTO.getEmail());
-        ninjaDTO.setIdade(ninjaDTO.getIdade());
-        ninjaDTO.setImg_url(ninjaDTO.getImg_url());
-        ninjaDTO.setMissoes(ninjaDTO.getMissoes());
-        ninjaDTO.setRank(ninjaDTO.getRank());
+        ninjaDTO.setId(ninjaModel.getId());
+        ninjaDTO.setNome(ninjaModel.getNome());
+        ninjaDTO.setEmail(ninjaModel.getEmail());
+        ninjaDTO.setIdade(ninjaModel.getIdade());
+        ninjaDTO.setImg_url(ninjaModel.getImgUrl());
+        ninjaDTO.setMissoesId(ninjaModel.getMissoes() != null ? ninjaModel.getMissoes().getId() : null);
+        ninjaDTO.setRank(ninjaModel.getRank());
         return ninjaDTO;
     }
 }

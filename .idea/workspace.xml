@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f5283821-6908-4724-80c0-eac8ca6af268" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CadastroDeNinjas/src/main/java/dev/java10x/CadastroDeNinjas/Missoes/MissoesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/CadastroDeNinjas/src/main/java/dev/java10x/CadastroDeNinjas/Missoes/MissoesService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CadastroDeNinjas/src/main/java/dev/java10x/CadastroDeNinjas/Ninjas/NinjaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/CadastroDeNinjas/src/main/java/dev/java10x/CadastroDeNinjas/Ninjas/NinjaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CadastroDeNinjas/src/main/java/dev/java10x/CadastroDeNinjas/Ninjas/NinjaMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/CadastroDeNinjas/src/main/java/dev/java10x/CadastroDeNinjas/Ninjas/NinjaMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CadastroDeNinjas/src/main/java/dev/java10x/CadastroDeNinjas/Ninjas/NinjaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/CadastroDeNinjas/src/main/java/dev/java10x/CadastroDeNinjas/Ninjas/NinjaService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +190,7 @@
       <workItem from="1774959568642" duration="615000" />
       <workItem from="1775202324122" duration="7076000" />
       <workItem from="1775232760982" duration="756000" />
-      <workItem from="1775802340585" duration="1645000" />
+      <workItem from="1775802340585" duration="3802000" />
     </task>
     <servers />
   </component>

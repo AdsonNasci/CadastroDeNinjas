@@ -8,8 +8,8 @@ import java.util.stream.Collectors;
 
 @Service
 public class NinjaService{
-    private  NinjaRepository ninjaRepository;
-    private  NinjaMapper ninjaMapper;
+    private final NinjaRepository ninjaRepository;
+    private final NinjaMapper ninjaMapper;
     //injeção de dependência do repository
       // @Autowired é uma anotação do Spring que permite a injeção automática de dependências.
 

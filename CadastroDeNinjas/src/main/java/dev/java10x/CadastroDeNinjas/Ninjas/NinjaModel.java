@@ -1,9 +1,10 @@
 package dev.java10x.CadastroDeNinjas.Ninjas;
-import dev.java10x.CadastroDeNinjas.Missoes.MissoesModel;
+import dev.java10x.CadastroDeNinjas.Missoes.MissionModel;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import lombok.ToString;
 
 
 //entity trasnforma uma classe em uma entidade do db
@@ -13,7 +14,8 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
-public class NinjaModel  {
+@ToString()
+public class NinjaModel {
     //necessario ter um id
     // java declara id automaticamente
     @Id
@@ -34,7 +36,7 @@ public class NinjaModel  {
     //@manytoone um ninja uma unica missao
     @ManyToOne()
     @JoinColumn(name = "missoes_id")//foreing key  ou chave estrangeira
-    private MissoesModel missoes;
+    private MissionModel missoes;
     //Many to one um ninja tem uma unica missao
 
 }

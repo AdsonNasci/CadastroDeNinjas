@@ -1,13 +1,12 @@
 package dev.java10x.CadastroDeNinjas.Ninjas;
-import org.springframework.stereotype.Service;
+import  org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.PathVariable;
-
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
 @Service
-public class NinjaService{
+public class        NinjaService{
     private final NinjaRepository ninjaRepository;
     private final NinjaMapper ninjaMapper;
     //injeção de dependência do repository

@@ -1,6 +1,6 @@
 package dev.java10x.CadastroDeNinjas.Missoes;
 
-public enum Niveis {
+public enum Level {
     Facil( "facil", 8),
     Media("media", 10),
     Dificil("dificil", 20),
@@ -10,8 +10,8 @@ public enum Niveis {
     private String nivelNome;
     private int nivelDano;
 
-    Niveis() {};
-    Niveis(String nivelNome, int nivelDano) {
+    Level() {};
+    Level(String nivelNome, int nivelDano) {
         this.nivelNome = nivelNome;
         this.nivelDano = nivelDano;
     }

@@ -1,5 +1,5 @@
 package dev.java10x.CadastroDeNinjas.Ninjas;
-import dev.java10x.CadastroDeNinjas.Missoes.MissoesModel;
+import dev.java10x.CadastroDeNinjas.Missoes.MissionModel;
 import lombok.*;
 
 @Data
@@ -12,6 +12,6 @@ public class NinjaDTO {
     private String email;
     private String img_url;
     private int idade;
-    private MissoesModel missoes;
+    private MissionModel missoes;
     private String rank;
 }
